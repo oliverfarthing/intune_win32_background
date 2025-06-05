@@ -1,5 +1,5 @@
 ﻿# Create download script configuration
-$sourceUrl = "https://stdevicedeployment.blob.core.windows.net/clientresources/backgroundmain.jpg"
+$sourceUrl = "https://***.jpg"
 $DesktopImagePath = "C:\WINDOWS\Personalization\DesktopImage\DesktopImage_blVUKUE0kcvVOTIQ7MIA.jpg"
 $LockScreenImagePath = "C:\WINDOWS\Personalization\LockScreenImage\LockScreenImage Uj9r7BDAHkaEMNZjlrxhjg.jpg"
 $taskName = "backgroundmain_sync"
