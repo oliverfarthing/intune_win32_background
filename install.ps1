@@ -36,10 +36,10 @@ if (-not (Test-Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Personaliza
 
 New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP" -Name "LockScreenImagePath" -Value "C:\WINDOWS\Personalization\LockScreenImage\LockScreenImage Uj9r7BDAHkaEMNZjlrxhjg.jpg" -PropertyType String -Force
 New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP" -Name "LockScreenImageStatus" -Value 1 -PropertyType DWord -Force
-New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP" -Name "LockScreenImageUrl" -Value "https://stdevicedeployment.blob.core.windows.net/clientresources/backgroundmain.jpg" -PropertyType String -Force
+New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP" -Name "LockScreenImageUrl" -Value "https://***.jpg" -PropertyType String -Force
 New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP" -Name "DesktopImageStatus" -Value 1 -PropertyType DWord -Force
 New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP" -Name "DesktopImagePath" -Value "C:\WINDOWS\Personalization\DesktopImage\DesktopImage_blVUKUE0kcvVOTIQ7MIA.jpg" -PropertyType String -Force
-New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP" -Name "DesktopImageUrl" -Value "https://stdevicedeployment.blob.core.windows.net/clientresources/backgroundmain.jpg" -PropertyType String -Force
+New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP" -Name "DesktopImageUrl" -Value "https://***.jpg" -PropertyType String -Force
 "@
 
 Set-Content -Path $scriptPath -Value $downloadScript -Encoding UTF8
